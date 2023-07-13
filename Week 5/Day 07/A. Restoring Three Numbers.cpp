@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+void solve()
+{
+    vector<int> v(4);
+    for(int i=0; i<4; i++) cin>>v[i];
+    sort(v.begin(), v.end());
+
+        int c = v[3]-v[0];
+        int b = v[3] - v[1];
+        int a = v[3] - v[2];
+    cout<<a<<" "<<b<<" "<<c<<endl;
+}
+
+int main()
+{
+    solve();
+    return 0;
+}
