@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t; cin>>t;
+	while(t--)
+	{
+	    int a, b; cin>>a>>b;
+	    int dif = a-b;
+	    if(dif>=0) cout<<dif<<endl;
+	    else cout<<0<<endl;
+	}
+	return 0;
+}
+
